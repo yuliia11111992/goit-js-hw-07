@@ -1,17 +1,14 @@
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
 }
-ul>li>img{
-    width: auto;
-    height: 400px;
-    
-
+ul > li > img {
+  width: 360px;
+  height: 300px;
 }
