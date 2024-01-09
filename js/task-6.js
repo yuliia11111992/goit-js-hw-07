@@ -9,7 +9,7 @@ const dataDestroy = controls.querySelector("[data-destroy]");
 
 const createBoxes = (amount) => {
   const boxesContainer = document.querySelector("#boxes");
-
+  boxesContainer.innerHTML = "";
   for (let i = 0; i < amount; i++) {
     const box = document.createElement("div");
     box.style.width = `${30 + i * 10}px`;
